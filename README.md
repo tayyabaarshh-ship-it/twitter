@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign in to X</title>
+  <style>
+    body {
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 320px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.google, .apple {
+  background: #fff;
+  color: #000;
+}
+
+.primary {
+  background: #1d9bf0;
+  color: #fff;
+}
+
+.outline {
+  background: transparent;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #000;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+.divider {
+  margin: 10px 0;
+  color: #777;
+}
+
+.signup a {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>X</h1>
+    <h2>Sign in to X</h2>
+
+    <button class="btn google">Sign in with Google</button>
+    <button class="btn apple">Sign in with Apple</button>
+
+    <div class="divider">or</div>
+
+    <input type="text" placeholder="Phone, email, or username">
+    <button class="btn primary">Next</button>
+    <button class="btn outline">Forgot password?</button>
+
+    <p class="signup">Don’t have an account? <a href="#">Sign up</a></p>
+  </div>
+</body>
+</html>
